@@ -1,0 +1,3 @@
+name: TwitchChatPlugin
+version: 1
+main: fr.anthonykgross.TwitchChatPlugin.TwitchChatPlugin
