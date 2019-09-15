@@ -1,3 +1,9 @@
 name: TwitchChatPlugin
 version: 1
 main: fr.anthonykgross.TwitchChatPlugin.TwitchChatPlugin
+
+
+commands:
+  lookup:
+    description: Your description
+    usage: /lookup

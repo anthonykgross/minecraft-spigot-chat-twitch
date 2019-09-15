@@ -9,6 +9,9 @@ public class TwitchChatPlugin extends JavaPlugin {
     public void onEnable() {
         getLogger().info("onEnable is called!");
         this.getServer().getPluginManager().registerEvents(new PlayerEventListener(), this);
+        this.getCommand("lookup").setExecutor(new LookupCommand(
+                this.getServer()
+        ));
     }
 
     @Override
