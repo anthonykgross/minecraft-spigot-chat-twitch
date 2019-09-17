@@ -4,6 +4,6 @@ main: fr.anthonykgross.TwitchChatPlugin.TwitchChatPlugin
 
 
 commands:
-  lookup:
+  bounty:
     description: Your description
-    usage: /lookup
+    usage: /bounty
