@@ -1,13 +1,9 @@
 package fr.anthonykgross.TwitchChatPlugin.Command;
 
 import fr.anthonykgross.TwitchChatPlugin.App;
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
 
 public class BountyCommand implements CommandExecutor {
     private App app;
